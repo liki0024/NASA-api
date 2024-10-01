@@ -1,0 +1,56 @@
+body {
+    /* font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0; */
+
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #0d0d0d;
+    background-image: url('https://th.bing.com/th/id/R.13717c495e177a641f6c428aefa94959?rik=FjIgo27Dg%2baPxg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fga5ArRk.jpg&ehk=xdBflWygsg2WLm8yXUrQyMWSI9ygI4bN4dzs5g557iM%3d&risl=&pid=ImgRaw&r=0'); /* Replace with your image file path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+h1 {
+    color: #333;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+#search-button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.result-item {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-item h3 {
+    margin: 0;
+    color: #0077b6;
+}
+
+.result-item p {
+    color: #555;
+}
+
+.result-item img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
